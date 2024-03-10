@@ -1,37 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    table {
-      font-family: Arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-  </style>
-</head>
-<body>
-  <h2>Alert Details</h2>
-  <table>
-    <tr>
-      <th>Field 1</th>
-      <th>Field 2</th>
-      <th>Field 3</th>
-      <th>Field 4</th>
-    </tr>
-    <tr>
-      <td>$result.field1$</td>
-      <td>$result.field2$</td>
-      <td>$result.field3$</td>
-      <td>$result.field4$</td>
-    </tr>
-  </table>
-</body>
-</html>
+
+**Subject:** Alert: Hotlist Category Detected
+
+Dear [Recipient],
+
+I hope this email finds you well. I'm reaching out to inform you of an important event detected by our system.
+
+**Alert Details:**
+
+A hotlist category has been detected in our system. This category includes sensitive information such as phone numbers, email addresses, and TIN (Taxpayer Identification Numbers). We've provided the details below for your reference:
+
+| Category | Phone        | Email              | TIN            |
+|----------|--------------|--------------------|----------------|
+| [Category]| [Phone]      | [Email]            | [TIN]          |
+
+Please review this information and take any necessary actions in accordance with our company's policies and procedures.
+
+Thank you for your attention to this matter. If you have any questions or require further assistance, please don't hesitate to reach out.
+
+Best regards,
+
+[Your Name]  
+[Your Position]  
+[Your Contact Information]
